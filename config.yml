@@ -4,5 +4,4 @@ reports:
     where: ./
 finder:
   organizations:
-    - name: SAP
-      stars: 30
+    - name: fosstar-test-org
