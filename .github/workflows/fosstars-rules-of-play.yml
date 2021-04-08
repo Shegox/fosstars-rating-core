@@ -22,4 +22,4 @@ jobs:
         with:
           fosstars-version: oss-rules-of-play
           report-branch: fosstars-oss-rules-of-play-test-report
-          token: "${{ steps.get_token.outputs.token }}"
+          token: "${{ steps.generate_token.outputs.token }}"
