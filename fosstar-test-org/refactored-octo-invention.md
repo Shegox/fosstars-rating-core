@@ -1,9 +1,14 @@
 **Status**: **FAILED**
 
-**Confidence**: Low (6.67, max confidence value is 10.0)
+**Confidence**: High (9.44, max confidence value is 10.0)
 
 ## Violated rules
 
+1.  **[rl-assigned_teams-1]** Does it have enough teams on GitHub? **false**
+1.  **[rl-assigned_teams-2]** Does it have an admin team on GitHub? **false**
+1.  **[rl-assigned_teams-3]** Does it have enough admins on GitHub? **false**
+1.  **[rl-assigned_teams-4]** Does it have a team with push privileges on GitHub? **false**
+1.  **[rl-assigned_teams-5]** Does teams have enough members on GitHub? **false**
 1.  **[rl-contributor_file-2]** Does the contributing guideline have required text? **false**
 1.  **[rl-reuse_tool-1]** Does README mention REUSE? **false**
 1.  **[rl-reuse_tool-2]** Does it have LICENSES directory with licenses? **false**
@@ -20,11 +25,6 @@
 
 ## Unclear rules
 
-1.  **[rl-assigned_teams-1]** Does it have enough teams on GitHub? **unknown**
-1.  **[rl-assigned_teams-2]** Does it have an admin team on GitHub? **unknown**
-1.  **[rl-assigned_teams-3]** Does it have enough admins on GitHub? **unknown**
-1.  **[rl-assigned_teams-4]** Does it have a team with push privileges on GitHub? **unknown**
-1.  **[rl-assigned_teams-5]** Does teams have enough members on GitHub? **unknown**
 1.  **[rl-vulnerability_alerts-2]** Does it have unresolved vulnerability alerts? **unknown**
 
 

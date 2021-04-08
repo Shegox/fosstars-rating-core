@@ -14,4 +14,4 @@
 
 | Project  | Status | # of violated rules |
 | -------  | :----- | :------------------ |
-| [fosstar-test-org/refactored-octo-invention](https://github.com/fosstar-test-org/refactored-octo-invention) | [FAILED](fosstar-test-org/refactored-octo-invention.md) | 7 violated rules |
+| [fosstar-test-org/refactored-octo-invention](https://github.com/fosstar-test-org/refactored-octo-invention) | [FAILED](fosstar-test-org/refactored-octo-invention.md) | 12 violated rules |
