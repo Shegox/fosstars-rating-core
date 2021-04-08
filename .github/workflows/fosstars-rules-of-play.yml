@@ -19,7 +19,7 @@ jobs:
           privateKey: ${{ secrets.APP_PEM }}
       - name: api-call
         id: test
-        run: "curl -v -u token:${{ steps.generate_token.outputs.token }} https://api.github.com/repos/fosstar-test-org/refactored-octo-invention/vulnerability-alerts"
+        run: "curl -v -u token:${{ steps.generate_token.outputs.token }} -H 'Accept: application/vnd.github.dorian-preview+json' https://api.github.com/repos/fosstar-test-org/refactored-octo-invention/vulnerability-alerts"
       - uses: ./.github/actions/oss-rules-of-play-action
         with:
           fosstars-version: oss-rules-of-play
