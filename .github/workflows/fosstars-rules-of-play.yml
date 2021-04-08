@@ -10,8 +10,14 @@ jobs:
     name: "Open source rules of play"
     steps:
       - uses: actions/checkout@v2.3.4
+      - name: Get token
+        id: get_token
+        uses: machine-learning-apps/actions-app-token@master
+        with:
+          APP_PEM: ${{ secrets.APP_PEM }}
+          APP_ID: ${{ secrets.APP_ID }}
       - uses: ./.github/actions/oss-rules-of-play-action
         with:
           fosstars-version: oss-rules-of-play
           report-branch: fosstars-oss-rules-of-play-test-report
-          token: "${{ secrets.GITHUB_TOKEN }}"
+          token: "${{ steps.get_token.outputs.app_token }}"
