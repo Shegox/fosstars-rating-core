@@ -1,4 +1,4 @@
-**Status**: **FAILED**
+**Status**: **Failed**
 
 **Confidence**: High (9.44, max confidence value is 10.0)
 
@@ -37,4 +37,11 @@
 1.  **[rl-readme_file-1]** Does it have a README file? **Yes**
 
 
+## How to fix it
+
+1.  You can open a pull request to add a security policy for the project.
+    More info:
+    1.  [About adding a security policy to a repository on GitHub](https://docs.github.com/en/free-pro-team@latest/github/managing-security-vulnerabilities/adding-a-security-policy-to-your-repository)
+    2.  [An example of a security policy](https://github.com/apache/nifi/blob/main/SECURITY.md)
+    3.  [Suggest a security policy for the project](https://github.com/fosstar-test-org/furry-fortnight/security/policy)
 
