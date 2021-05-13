@@ -14,4 +14,4 @@
 
 | Project  | Status | # of violated rules |
 | -------  | :----- | :------------------ |
-| [fosstar-test-org/furry-fortnight](https://github.com/fosstar-test-org/furry-fortnight) | [Failed](fosstar-test-org/furry-fortnight.md) | 13 violated rules |
+| [fosstar-test-org/furry-fortnight](https://github.com/fosstar-test-org/furry-fortnight) | [Failed](fosstar-test-org/furry-fortnight.md) | 12 violated rules |
