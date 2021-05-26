@@ -2,13 +2,13 @@
 
 ## Projects stats
 
-|               | # or projects                    | % or projects                      |
-| :------------ | -------------------------------: | ---------------------------------: |
-| Total         |             1 |                               100% |
-| Failed        |         1 |         100.0% |
-| With warnings |  0 |  0.0% |
-| Passed        |         0 |         0.0% |
-| Unclear       |        0 |        0.0% |
+|                           | # or projects                    | % or projects                      |
+| :------------------------ | -------------------------------: | ---------------------------------: |
+| Total                     |             1 |                               100% |
+| Failed                    |         1 |         100.0% |
+| Passed with&nbsp;warnings |  0 |  0.0% |
+| Passed                    |         0 |         0.0% |
+| Unclear                   |        0 |        0.0% |
 
 ## Projects
 
